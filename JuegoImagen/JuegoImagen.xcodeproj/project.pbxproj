@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3301F0791809758900CBE936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3301F0781809758900CBE936 /* UIKit.framework */; };
+		3301F07B1809758900CBE936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3301F07A1809758900CBE936 /* Foundation.framework */; };
+		3301F07D1809758900CBE936 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3301F07C1809758900CBE936 /* CoreGraphics.framework */; };
+		3301F0831809758900CBE936 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3301F0811809758900CBE936 /* InfoPlist.strings */; };
+		3301F0851809758900CBE936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3301F0841809758900CBE936 /* main.m */; };
+		3301F0891809758900CBE936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3301F0881809758900CBE936 /* AppDelegate.m */; };
+		3301F08B1809758900CBE936 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3301F08A1809758900CBE936 /* Default.png */; };
+		3301F08D1809758900CBE936 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3301F08C1809758900CBE936 /* Default@2x.png */; };
+		3301F08F1809758900CBE936 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3301F08E1809758900CBE936 /* Default-568h@2x.png */; };
+		3301F0921809758900CBE936 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3301F0901809758900CBE936 /* MainStoryboard.storyboard */; };
+		3301F0951809758900CBE936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3301F0941809758900CBE936 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3301F0751809758900CBE936 /* JuegoImagen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoImagen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3301F0781809758900CBE936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3301F07A1809758900CBE936 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3301F07C1809758900CBE936 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3301F0801809758900CBE936 /* JuegoImagen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JuegoImagen-Info.plist"; sourceTree = "<group>"; };
+		3301F0821809758900CBE936 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3301F0841809758900CBE936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3301F0861809758900CBE936 /* JuegoImagen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuegoImagen-Prefix.pch"; sourceTree = "<group>"; };
+		3301F0871809758900CBE936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3301F0881809758900CBE936 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3301F08A1809758900CBE936 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3301F08C1809758900CBE936 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3301F08E1809758900CBE936 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3301F0911809758900CBE936 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3301F0931809758900CBE936 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3301F0941809758900CBE936 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3301F0721809758900CBE936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3301F0791809758900CBE936 /* UIKit.framework in Frameworks */,
+				3301F07B1809758900CBE936 /* Foundation.framework in Frameworks */,
+				3301F07D1809758900CBE936 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3301F06C1809758900CBE936 = {
+			isa = PBXGroup;
+			children = (
+				3301F07E1809758900CBE936 /* JuegoImagen */,
+				3301F0771809758900CBE936 /* Frameworks */,
+				3301F0761809758900CBE936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3301F0761809758900CBE936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3301F0751809758900CBE936 /* JuegoImagen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3301F0771809758900CBE936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3301F0781809758900CBE936 /* UIKit.framework */,
+				3301F07A1809758900CBE936 /* Foundation.framework */,
+				3301F07C1809758900CBE936 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3301F07E1809758900CBE936 /* JuegoImagen */ = {
+			isa = PBXGroup;
+			children = (
+				3301F0871809758900CBE936 /* AppDelegate.h */,
+				3301F0881809758900CBE936 /* AppDelegate.m */,
+				3301F0901809758900CBE936 /* MainStoryboard.storyboard */,
+				3301F0931809758900CBE936 /* ViewController.h */,
+				3301F0941809758900CBE936 /* ViewController.m */,
+				3301F07F1809758900CBE936 /* Supporting Files */,
+			);
+			path = JuegoImagen;
+			sourceTree = "<group>";
+		};
+		3301F07F1809758900CBE936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3301F0801809758900CBE936 /* JuegoImagen-Info.plist */,
+				3301F0811809758900CBE936 /* InfoPlist.strings */,
+				3301F0841809758900CBE936 /* main.m */,
+				3301F0861809758900CBE936 /* JuegoImagen-Prefix.pch */,
+				3301F08A1809758900CBE936 /* Default.png */,
+				3301F08C1809758900CBE936 /* Default@2x.png */,
+				3301F08E1809758900CBE936 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3301F0741809758900CBE936 /* JuegoImagen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3301F0981809758900CBE936 /* Build configuration list for PBXNativeTarget "JuegoImagen" */;
+			buildPhases = (
+				3301F0711809758900CBE936 /* Sources */,
+				3301F0721809758900CBE936 /* Frameworks */,
+				3301F0731809758900CBE936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuegoImagen;
+			productName = JuegoImagen;
+			productReference = 3301F0751809758900CBE936 /* JuegoImagen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3301F06D1809758900CBE936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Silvia Cachi Tenorio";
+			};
+			buildConfigurationList = 3301F0701809758900CBE936 /* Build configuration list for PBXProject "JuegoImagen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3301F06C1809758900CBE936;
+			productRefGroup = 3301F0761809758900CBE936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3301F0741809758900CBE936 /* JuegoImagen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3301F0731809758900CBE936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3301F0831809758900CBE936 /* InfoPlist.strings in Resources */,
+				3301F08B1809758900CBE936 /* Default.png in Resources */,
+				3301F08D1809758900CBE936 /* Default@2x.png in Resources */,
+				3301F08F1809758900CBE936 /* Default-568h@2x.png in Resources */,
+				3301F0921809758900CBE936 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3301F0711809758900CBE936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3301F0851809758900CBE936 /* main.m in Sources */,
+				3301F0891809758900CBE936 /* AppDelegate.m in Sources */,
+				3301F0951809758900CBE936 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3301F0811809758900CBE936 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3301F0821809758900CBE936 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3301F0901809758900CBE936 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3301F0911809758900CBE936 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3301F0961809758900CBE936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3301F0971809758900CBE936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3301F0991809758900CBE936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JuegoImagen/JuegoImagen-Prefix.pch";
+				INFOPLIST_FILE = "JuegoImagen/JuegoImagen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3301F09A1809758900CBE936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JuegoImagen/JuegoImagen-Prefix.pch";
+				INFOPLIST_FILE = "JuegoImagen/JuegoImagen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3301F0701809758900CBE936 /* Build configuration list for PBXProject "JuegoImagen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3301F0961809758900CBE936 /* Debug */,
+				3301F0971809758900CBE936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3301F0981809758900CBE936 /* Build configuration list for PBXNativeTarget "JuegoImagen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3301F0991809758900CBE936 /* Debug */,
+				3301F09A1809758900CBE936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3301F06D1809758900CBE936 /* Project object */;
+}
